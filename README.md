@@ -58,23 +58,32 @@ define( 'WP_MAX_MEMORY_LIMIT', '512M' );
 
 https://gist.github.com/MikeNGarrett/e20d77ca8ba4ae62adf5
 
+
+## PHP memory limit for this site
 ````
-// PHP memory limit for this site
 define( 'WP_MEMORY_LIMIT', '128M' );
 define( 'WP_MAX_MEMORY_LIMIT', '256M' ); // Increase admin-side memory limit.
+````
 
-// Database
+## Database
+````
 define( 'WP_ALLOW_REPAIR', true ); // Allow WordPress to automatically repair your database.
 define( 'DO_NOT_UPGRADE_GLOBAL_TABLES', true ); // Don't make database upgrades on global tables (like users)
+````
 
-// Explicitely setting url
+## Explicitely setting url
+````
 define( 'WP_HOME', 'http://domain.com' );
 define( 'WP_SITEURL', 'http://domain.com' );
+````
 
-// Set url to... whatever.
+## Set url to... whatever.
+````
 define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] );
 define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] );
+````
 
+````
 // Set default theme
 define( 'WP_DEFAULT_THEME', 'twentytwentyone' );
 
