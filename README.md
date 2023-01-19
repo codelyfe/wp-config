@@ -25,3 +25,25 @@ define( 'WP_DEBUG_DISPLAY', false );
 
 define( 'SCRIPT_DEBUG', true );
 ````
+
+## Changing content directories
+````
+| Move the wp-content directory
+
+define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/extensions' );
+define( 'WP_CONTENT_URL', 'http://mywebsite.com/extensions' );
+
+| Move plugins directory
+
+define( 'WP_PLUGIN_DIR', dirname(__FILE__) . '/extensions/plugins' );
+define( 'WP_PLUGIN_URL', 'http://mywebsite.com/extensions/plugins' );
+define( 'PLUGINDIR', dirname(__FILE__) . '/extensions/plugins' );
+
+| Create additional theme directory
+
+register_theme_directory( dirname( __FILE__ ) . '/themes-dev' );
+
+| Move the uploads directory
+
+define( 'UPLOADS', 'uploads' );
+````
