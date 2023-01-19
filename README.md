@@ -47,3 +47,9 @@ register_theme_directory( dirname( __FILE__ ) . '/themes-dev' );
 
 define( 'UPLOADS', 'uploads' );
 ````
+
+## Set Memory Limit
+````
+define('WP_MEMORY_LIMIT', '256M');
+define( 'WP_MAX_MEMORY_LIMIT', '512M' );
+````
