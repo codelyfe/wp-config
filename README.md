@@ -13,3 +13,15 @@ define( 'FORCE_SSL_ADMIN', true );
 define( 'DISALLOW_FILE_EDIT', false );
 define( 'DISALLOW_FILE_MODS', false );
 ````
+
+## Advanced Debug Settings
+````
+define( 'WP_DEBUG', true );
+
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+@ini_set( 'display_errors', 0 );
+
+define( 'SCRIPT_DEBUG', true );
+````
