@@ -141,7 +141,6 @@ Force SSL (https)
 define( 'FORCE_SSL_LOGIN', true );
 
 define( 'FORCE_SSL_ADMIN', true );
-These two configuration options are ones that I use on all my WordPress sites.
 
 FORCE_SSL_LOGIN to true forces the WordPress login URL (/wp-admin or /wp-login.php) to use https instead of the insecure http.  
 
