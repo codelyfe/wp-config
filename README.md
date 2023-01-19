@@ -53,3 +53,7 @@ define( 'UPLOADS', 'uploads' );
 define('WP_MEMORY_LIMIT', '256M');
 define( 'WP_MAX_MEMORY_LIMIT', '512M' );
 ````
+
+## Another useful wp-config.php I discovered after making this one.
+
+https://gist.github.com/MikeNGarrett/e20d77ca8ba4ae62adf5
